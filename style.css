@@ -35,10 +35,13 @@ body {
 }
 
 #sidebar h1 {
+  
   font-size: 1.8em;
-  color: var(--highlight);
-  margin: 0;
-  color: rgba(0, 255, 0);
+  margin-bottom: 20px;
+  border-bottom: 3px solid var(--highlight);
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #5dfc8f;
 }
 
 #sidebar nav {
@@ -52,7 +55,7 @@ body {
   color: var(--fg);
   font-weight: 500;
   transition: 0.3s;
-  color: rgba(0, 255, 0);
+  color: #5dfc8f;
 }
 
 #sidebar nav a:hover {
@@ -63,7 +66,7 @@ body {
   color: var(--highlight);
   font-weight: 500;
   transition: 0.3s;
-  color: rgba(0, 255, 0);
+  color: #5dfc8f;
 }
 #contact a:hover {
   color: var(--highlight);
@@ -89,7 +92,7 @@ section h2 {
   border-bottom: 3px solid var(--highlight);
   display: inline-block;
   padding-bottom: 5px;
-  color: rgba(0, 255, 0);
+  color: #5dfc8f;
 }
 
 /* Cards grid */
