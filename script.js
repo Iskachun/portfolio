@@ -19,7 +19,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-const text = "Welcome to My Portfolio...";
+const text = "Hi, I'm Alex!";
 let i = 0;
 const speed = 150; // slow typing
 
