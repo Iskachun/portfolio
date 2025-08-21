@@ -19,21 +19,36 @@ window.addEventListener('scroll', () => {
 });
 
 
-const text = "Hi, I'm Alex!";
-let i = 0;
-const speed = 150; // slow typing
+const lines = [
+  "Hi, I'm Alex!",
+  "Welcome to my website ❤️"
+];
+
+let lineIndex = 0;
+let charIndex = 0;
+const speed = 150; // typing speed in ms
+const typedElement = document.getElementById("typed-text");
 
 function typeWriter() {
-  if (i < text.length) {
-    const typedElement = document.getElementById("typed-text");
-    typedElement.innerHTML += text.charAt(i);
-    typedElement.style.opacity = "1"; // fade-in effect for each character
-    i++;
+  if (charIndex < lines[lineIndex].length) {
+    typedElement.innerHTML += lines[lineIndex].charAt(charIndex);
+    charIndex++;
     setTimeout(typeWriter, speed);
+  } else {
+    // finished one line → move to next
+    lineIndex++;
+    if (lineIndex < lines.length) {
+      setTimeout(() => {
+        typedElement.innerHTML += "<br>"; // line break
+        charIndex = 0;
+        typeWriter();
+      }, 700); // small pause before next line
+    }
   }
 }
 
 window.onload = typeWriter;
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -51,3 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     observer.observe(skillSection);
   });
+
+
+  
