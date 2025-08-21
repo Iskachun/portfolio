@@ -21,7 +21,8 @@ window.addEventListener('scroll', () => {
 
 const lines = [
   "Hi, I'm Alex!",
-  "Welcome to my website ❤️"
+  "Welcome to my website", 
+  "💜"
 ];
 
 let lineIndex = 0;
