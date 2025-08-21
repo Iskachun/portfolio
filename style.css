@@ -4,6 +4,7 @@
   --highlight: #8f5dfc;
   --card-bg: #1a1a1a;
   --sidebar-bg: #111;
+  --head-color: black;
 }
 
 body {
@@ -13,6 +14,11 @@ body {
   color: var(--fg);
   display: flex;
 }
+
+#home h1 {
+  color: var(--head-color);
+}
+
 
 /* Sidebar */
 #sidebar {
@@ -32,6 +38,7 @@ body {
   font-size: 1.8em;
   color: var(--highlight);
   margin: 0;
+  color: rgba(0, 255, 0);
 }
 
 #sidebar nav {
@@ -45,18 +52,23 @@ body {
   color: var(--fg);
   font-weight: 500;
   transition: 0.3s;
+  color: rgba(0, 255, 0);
 }
 
 #sidebar nav a:hover {
   color: var(--highlight);
 }
-#contact a {
+#contact a, #about a {
   text-decoration: none;
   color: var(--highlight);
   font-weight: 500;
   transition: 0.3s;
+  color: rgba(0, 255, 0);
 }
 #contact a:hover {
+  color: var(--highlight);
+}
+#about a:hover {
   color: var(--highlight);
 }
 
@@ -77,6 +89,7 @@ section h2 {
   border-bottom: 3px solid var(--highlight);
   display: inline-block;
   padding-bottom: 5px;
+  color: rgba(0, 255, 0);
 }
 
 /* Cards grid */
@@ -236,6 +249,7 @@ body.light {
   --fg: #0f0f0f;
   --card-bg: #e0e0e0;
   --sidebar-bg: #f5f5f5; /* make sidebar light too */
+  --head-color: #fff;
 }
 
 /* Sidebar links in light mode */
