@@ -51,7 +51,6 @@ function typeWriter() {
 window.onload = typeWriter;
 
 
-
 document.addEventListener("DOMContentLoaded", () => {
     const skillSection = document.querySelector("#skills");
     const bars = document.querySelectorAll(".fill");
