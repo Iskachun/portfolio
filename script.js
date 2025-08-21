@@ -34,3 +34,20 @@ function typeWriter() {
 }
 
 window.onload = typeWriter;
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const skillSection = document.querySelector("#skills");
+    const bars = document.querySelectorAll(".fill");
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          bars.forEach(bar => bar.classList.add("active"));
+          observer.unobserve(skillSection); // run once
+        }
+      });
+    }, { threshold: 0.3 });
+
+    observer.observe(skillSection);
+  });
