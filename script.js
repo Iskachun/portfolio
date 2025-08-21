@@ -22,6 +22,7 @@ window.addEventListener('scroll', () => {
 const lines = [
   "Hi, I'm Alex!",
   "Welcome to my website", 
+  "",
   "💜"
 ];
 
