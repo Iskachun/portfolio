@@ -258,8 +258,8 @@ body.light #sidebar nav a:hover {
 }
 
 /* Color-coded final widths (when activated by JS) */
-.fill.html.active { width: 60%; background: #e44d26; }
-.fill.css.active { width: 45%; background: #264de4; }
-.fill.js.active { width: 35%; background: #f0db4f; color: #000; }
-.fill.cpp.active { width: 80%; background: #00599C; }
-.fill.python.active { width: 75%; background: #3776ab; }
+.fill.html.active { width: 80%; background: #e44d26; }
+.fill.css.active { width: 65%; background: #264de4; }
+.fill.js.active { width: 55%; background: #f0db4f; color: #000; }
+.fill.cpp.active { width: 90%; background: #00599C; }
+.fill.python.active { width: 85%; background: #3776ab; }
