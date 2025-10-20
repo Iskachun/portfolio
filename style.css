@@ -5,6 +5,7 @@
   --card-bg: #1a1a1a;
   --sidebar-bg: #111;
   --head-color:black;
+  --h2-color: #5dfc8f;
 }
 
 body {
@@ -91,7 +92,7 @@ section h2 {
   border-bottom: 3px solid var(--highlight);
   display: inline-block;
   padding-bottom: 5px;
-  color: #5dfc8f;
+  color: var(--h2-color);
 }
 
 /* Cards grid */
@@ -272,17 +273,14 @@ section h2 {
 
 /* Light mode */
 body.light {
-  --bg: #f5f5f5;
+  --bg: #dbcef8;
   --fg: #0f0f0f;
-  --card-bg: #e0e0e0;
-  --sidebar-bg: #f5f5f5; /* make sidebar light too */
-  --head-color: #fff;
+  --card-bg: #b99ef7;
+  --sidebar-bg: #b99ef7; /* make sidebar light too */
+  --head-color: rgb(158, 240, 120);
+  --h2-color: #8f5dfc;
 }
 
-/* Sidebar links in light mode */
-body.light #sidebar {
-  background-color: #f5f5f5; /* light background */
-}
 
 body.light #sidebar nav a {
   color: #111; /* dark enough to be readable */
@@ -355,5 +353,5 @@ body.light #sidebar nav a:hover {
   width: 100%;
   height: 100%;
   z-index: -1; /* behind everything */
-  background: black;
+  background-color: black;
 }
