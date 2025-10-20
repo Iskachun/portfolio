@@ -6,6 +6,7 @@
   --sidebar-bg: #111;
   --head-color:black;
   --h2-color: #5dfc8f;
+  --buttons: rgba(0, 255, 0, 0.6);
 }
 
 body {
@@ -257,8 +258,14 @@ section h2 {
   z-index: 1001;
 }
 
-#theme-toggle { top: 20px; background-color: var(--card-bg); }
-#back-to-top { bottom: 20px; background-color: var(--card-bg); }
+#theme-toggle { 
+  top: 20px; 
+  background-color: var(--buttons); 
+}
+#back-to-top { 
+  bottom: 20px; 
+  background-color: var(--buttons); 
+}
 
 /* Scroll progress bar */
 #progress-bar {
@@ -279,6 +286,7 @@ body.light {
   --sidebar-bg: #b99ef7; /* make sidebar light too */
   --head-color: rgb(158, 240, 120);
   --h2-color: #8f5dfc;
+  --buttons: black;
 }
 
 
