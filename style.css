@@ -265,6 +265,7 @@ section h2 {
 #back-to-top { 
   bottom: 20px; 
   background-color: var(--buttons); 
+  color: white;
 }
 
 /* Scroll progress bar */
