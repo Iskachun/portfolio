@@ -87,7 +87,7 @@ const drops = Array(Math.floor(columns)).fill(1);
 
 function draw() {
   if (lightMode) {
-    ctx.fillStyle = 'rgba(158, 240, 120, 0.05)';
+    ctx.fillStyle = 'rgba(127, 252, 167, 0.05)';
   } else {
     ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
   }
