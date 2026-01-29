@@ -6,6 +6,7 @@
   --sidebar-bg: #111;
   --head-color:black;
   --h2-color: #5dfc8f;
+  --h3-color: #8f5dfc;
   --buttons: rgba(0, 255, 0, 0.6);
 }
 
@@ -42,7 +43,7 @@ body {
   margin-bottom: 20px;
   display: inline-block;
   padding-bottom: 5px;
-  color: var(--highlight);
+  color: var(--h3-color);
 }
 
 #sidebar nav {
@@ -284,10 +285,11 @@ body.light {
   --bg: #dbcef8;
   --fg: #0f0f0f;
   --card-bg: #b99ef7;
-  --sidebar-bg: #b99ef7; /* make sidebar light too */
+  --sidebar-bg: #7B9BD1; /* make sidebar light too */
   --head-color: rgb(158, 240, 120);
   --h2-color: #8f5dfc;
   --buttons: black;
+  --h3-color: black;
 }
 
 
