@@ -91,7 +91,7 @@ section {
 section h2 {
   font-size: 1.8em;
   margin-bottom: 20px;
-  border-bottom: 3px solid var(--highlight);
+  border-bottom: 3px solid #7B9BD1;
   display: inline-block;
   padding-bottom: 5px;
   color: var(--h2-color);
@@ -287,7 +287,7 @@ body.light {
   --card-bg: #b99ef7;
   --sidebar-bg: #7B9BD1; /* make sidebar light too */
   --head-color: rgb(158, 240, 120);
-  --h2-color: #7B9BD1;
+  --h2-color: #000;
   --buttons: black;
   --h3-color: black;
 }
@@ -350,11 +350,11 @@ body.light #sidebar nav a:hover {
 }
 
 /* Color-coded final widths (when activated by JS) */
-.fill.html.active { width: 80%; background: #25FF19; }
-.fill.css.active { width: 65%; background: #25FF19; }
-.fill.js.active { width: 55%; background: #25FF19; }
-.fill.cpp.active { width: 90%; background: #25FF19; }
-.fill.python.active { width: 85%; background: #25FF19; }
+.fill.html.active { width: 80%; background: rgb(158, 240, 120); }
+.fill.css.active { width: 65%; background: rgb(158, 240, 120); }
+.fill.js.active { width: 55%; background: rgb(158, 240, 120); }
+.fill.cpp.active { width: 90%; background: rgb(158, 240, 120); }
+.fill.python.active { width: 85%; background: rgb(158, 240, 120); }
 
 
 #matrix {
@@ -366,4 +366,5 @@ body.light #sidebar nav a:hover {
   z-index: -1; /* behind everything */
   background-color: black;
 }
+
 
