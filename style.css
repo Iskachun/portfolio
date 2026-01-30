@@ -8,6 +8,7 @@
   --h2-color: #5dfc8f;
   --h3-color: #8f5dfc;
   --buttons: rgba(0, 255, 0, 0.6);
+  --skill-color: #5dfc8f;
 }
 
 body {
@@ -290,6 +291,7 @@ body.light {
   --h2-color: #000;
   --buttons: black;
   --h3-color: black;
+  --skill-color: black;
 }
 
 
@@ -350,11 +352,11 @@ body.light #sidebar nav a:hover {
 }
 
 /* Color-coded final widths (when activated by JS) */
-.fill.html.active { width: 80%; background: #dbcef8; }
-.fill.css.active { width: 65%; background: #dbcef8; }
-.fill.js.active { width: 55%; background: #dbcef8; }
-.fill.cpp.active { width: 90%; background: #dbcef8; }
-.fill.python.active { width: 85%; background: #dbcef8; }
+.fill.html.active { width: 80%; background: var(--skill-color); }
+.fill.css.active { width: 65%; background: var(--skill-color); }
+.fill.js.active { width: 55%; background: var(--skill-color); }
+.fill.cpp.active { width: 90%; background: var(--skill-color); }
+.fill.python.active { width: 85%; background: var(--skill-color); }
 
 
 #matrix {
@@ -366,6 +368,7 @@ body.light #sidebar nav a:hover {
   z-index: -1; /* behind everything */
   background-color: black;
 }
+
 
 
 
