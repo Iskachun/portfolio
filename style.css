@@ -350,11 +350,11 @@ body.light #sidebar nav a:hover {
 }
 
 /* Color-coded final widths (when activated by JS) */
-.fill.html.active { width: 80%; background: rgb(158, 240, 120); }
-.fill.css.active { width: 65%; background: rgb(158, 240, 120); }
-.fill.js.active { width: 55%; background: rgb(158, 240, 120); }
-.fill.cpp.active { width: 90%; background: rgb(158, 240, 120); }
-.fill.python.active { width: 85%; background: rgb(158, 240, 120); }
+.fill.html.active { width: 80%; background: #dbcef8; }
+.fill.css.active { width: 65%; background: #dbcef8; }
+.fill.js.active { width: 55%; background: #dbcef8; }
+.fill.cpp.active { width: 90%; background: #dbcef8; }
+.fill.python.active { width: 85%; background: #dbcef8; }
 
 
 #matrix {
@@ -366,6 +366,7 @@ body.light #sidebar nav a:hover {
   z-index: -1; /* behind everything */
   background-color: black;
 }
+
 
 
 
