@@ -284,7 +284,7 @@ section h2 {
 body.light {
   --bg: #dbcef8;
   --fg: #0f0f0f;
-  --card-bg: #b99ef7;
+  --card-bg: #7B9BD1;
   --sidebar-bg: #7B9BD1; /* make sidebar light too */
   --head-color: rgb(158, 240, 120);
   --h2-color: #000;
@@ -366,5 +366,6 @@ body.light #sidebar nav a:hover {
   z-index: -1; /* behind everything */
   background-color: black;
 }
+
 
 
