@@ -291,7 +291,7 @@ body.light {
   --h2-color: #000;
   --buttons: black;
   --h3-color: black;
-  --skill-color: black;
+  --skill-color: #8f5dfc;
 }
 
 
@@ -368,6 +368,7 @@ body.light #sidebar nav a:hover {
   z-index: -1; /* behind everything */
   background-color: black;
 }
+
 
 
 
